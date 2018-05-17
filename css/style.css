@@ -18,11 +18,15 @@ body label{
     height: 45px;
     width: auto;
 }
+
 /* Header Topo Menu */
 .header-inner-sec{
     background: #c3161c;
 }
 
+.header-main-menu{
+    background: #c3161c;
+}
 .header-inner-sec{
     padding: 27px; 
 }
@@ -41,6 +45,7 @@ body label{
     display: inline;
     vertical-align: middle;
     border: 0px;
+    padding-left: 10px;
 }
 
 .inner_header_myaccount{
@@ -60,4 +65,105 @@ body label{
 .slide-home img{
     width: 100%;
     max-width: 100%;    
+}
+
+.banner-lista-casamento{
+    background: #c3161c;
+    height: 45px;
+    text-align: center;
+}
+
+.banner-lista-casamento img{
+    max-height: 45px;
+    width: auto;
+}
+
+/* Newsletter */
+.newsletter-fluid{
+    background-color: #c3161c;
+    border-bottom: 5px solid #9f0102;
+}
+
+.newsletter{
+    padding: 10px 0 10px 0;
+}
+.newsletter h3{
+    color: #fff;
+    padding: 0px 0px 2px 0px;
+    margin: 0;
+}
+
+.newsletter h6{
+    color: #202020;
+    padding: 0px 0px 0px 0px;
+    margin: 0;
+}
+
+.newsletter input{
+    width: 90%;
+    border: none;
+    padding-left: 10px;
+}
+
+.newsletter a{
+    padding-left: 14px;
+}
+.newsletter-search{
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    padding: 3px;    
+}
+
+.newsletter-search img{
+    height: 40px;
+}
+
+
+/* Offers */
+.offers{
+    background: #c3161c;
+}
+.offers-fluid{
+    padding: 35px 0 35px; 
+    background: #e4e4e4;
+}
+
+.offers-fluid img{
+    max-width: 100%;
+    width: 100%;
+}
+
+.offer-info{
+    padding: 5px 15px 3px 15px;
+}
+
+.offer-info span{
+    color: #fff;
+}
+.offer-text{
+    padding-top: 16px;
+}
+.offer-text #span-text{
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.offer-buy-now img{
+    padding-top: 8px;
+    height: 32px;
+}
+#offer-simb{
+    font-size: 16px;
+}
+
+#offer-price{
+    font-size: 26px;
+    font-weight: 700;
+    padding-left: 2px;
+}
+
+#offer-price-cents{
+    font-size: 20px;
+    font-weight: 600;
 }
