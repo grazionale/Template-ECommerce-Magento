@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    font-family: ArialMT, AdobeInvisFont, MyriadPro-Regular;
+    color: rgba(126, 126, 126, 255);
+    /*font-family: 'Roboto Condensed', sans-serif;*/
+    font-weight: 200 !important;
+}
+body label{
+    font-weight: 400;
+}
+
+.header-top {}
+
+/* Header Promo BAnner */
+.banner-promo img{
+    height: 45px;
+    width: auto;
+}
+/* Header Topo Menu */
+.header-inner-sec{
+    background: #c3161c;
+}
+
+.header-inner-sec{
+    padding: 27px; 
+}
+
+.header-logo img, input{
+    height: 40px;
+}
+
+.inner_search_bar{
+    background-color: #fff;
+    padding: 3px;
+}
+
+.header-search input{
+    width: 91.1%;
+    display: inline;
+    vertical-align: middle;
+    border: 0px;
+}
+
+.inner_header_myaccount{
+    padding: 3px;
+}
+
+.inner_header_mycart img{
+}
+
+
+.slide-home{
+    width: 100%;
+    height: auto;
+}
+.slide-home img{
+    width: 100%;
+}
