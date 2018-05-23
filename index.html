@@ -54,10 +54,31 @@
         <div class="container-fluid header-main-menu">
             <div class="container">
                 <div class="row header-inner-sec">
-                    <div class="col-md-3 header-logo">
+
+                    <!-- Mobile, Tablet, Desktop -->
+                    <div class="col-md-3 col-sm-6 col-xs-6 header-logo">
                         <img src="Figuras/ideale-logo.png">
                     </div>
-                    <div class="col-md-5 header-search">
+
+
+                    <!-- Tablet / Mobile-->
+
+
+                    <div class="col-md-2 col-sm-6 col-xs-6 header-cart-responsive">
+                        <!-- Mobile -->
+                        <div class="inner_header_mycart header-mobile-mode">
+                            <a href="#" class="icon-people">
+                                <img src="figuras/icon-people.png">
+                            </a>
+                            <a href="#" class="icon-cart2">
+                                <img src="figuras/icon-car2.png">
+                            </a>
+
+                        </div>
+                    </div>
+
+                    <!-- Desktop, Tablet, Mobile -->
+                    <div class="col-md-5 col-sm-12 col-xs-12 header-search">
                         <div class="inner_search_bar">
                             <input>
                             <a href="#">
@@ -65,6 +86,8 @@
                             </a>
                         </div>
                     </div>
+
+                    <!-- DESKTOOOP -->
                     <div class="col-md-2 header-account">
                         <div class="inner_header_myaccount">
                             <a href="#">
@@ -72,6 +95,7 @@
                             </a>
                         </div>
                     </div>
+                    <!-- DESKTOOOP -->
                     <div class="col-md-2 header-cart">
                         <div class="inner_header_mycart">
                             <a href="#">
@@ -80,6 +104,7 @@
                             </i>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -99,13 +124,13 @@
             <img src="figuras/banner1.png">
         </div>
         <div class="slide-home">
-                <img src="figuras/banner1.png">
-            </div>
+            <img src="figuras/banner1.png">
+        </div>
     </div>
 
     <!-- Newsletter After Slide Show -->
 
-    <div class="container-fluid newsletter-fluid">
+    <!-- <div class="container-fluid newsletter-fluid">
         <div class="container newsletter">
             <div class="row">
                 <div class="col-md-6">
@@ -122,7 +147,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <div class="container-fluid offers-fluid">
         <div class="container">
@@ -136,17 +161,18 @@
                         <img src="Figuras/oferta-foto.png">
                         <div class="row offer-info">
                             <div>
-                                <div class="col-md-4 offer-text">
+                                <div class="col-md-4 offer-text col-xs-4">
                                     <span id="span-text">De R$ 100,00 por</span>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-md-4 col-xs-4 col-offer-price">
                                     <span id="offer-simb">R$</span>
                                     <span id="offer-price">90,</span>
                                     <span id="offer-price-cents">00</span>
                                 </div>
-                                <div class="col-md-4 offer-buy-now">
+                                <div class="col-md-4 col-xs-4 offer-buy-now">
                                     <img src="figuras/compre-agora.png">
                                 </div>
+
                             </div>
 
                         </div>
@@ -161,17 +187,18 @@
                         <img src="Figuras/oferta-foto.png">
                         <div class="row offer-info">
                             <div>
-                                <div class="col-md-4 offer-text">
+                                <div class="col-md-4 offer-text col-xs-4">
                                     <span id="span-text">De R$ 100,00 por</span>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-md-4 col-xs-4 col-offer-price">
                                     <span id="offer-simb">R$</span>
                                     <span id="offer-price">90,</span>
                                     <span id="offer-price-cents">00</span>
                                 </div>
-                                <div class="col-md-4 offer-buy-now">
+                                <div class="col-md-4 col-xs-4 offer-buy-now">
                                     <img src="figuras/compre-agora.png">
                                 </div>
+
                             </div>
 
                         </div>
@@ -186,17 +213,18 @@
                         <img src="Figuras/oferta-foto.png">
                         <div class="row offer-info">
                             <div>
-                                <div class="col-md-4 offer-text">
+                                <div class="col-md-4 offer-text col-xs-4">
                                     <span id="span-text">De R$ 100,00 por</span>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-md-4 col-xs-4 col-offer-price">
                                     <span id="offer-simb">R$</span>
                                     <span id="offer-price">90,</span>
                                     <span id="offer-price-cents">00</span>
                                 </div>
-                                <div class="col-md-4 offer-buy-now">
+                                <div class="col-md-4 col-xs-4 offer-buy-now">
                                     <img src="figuras/compre-agora.png">
                                 </div>
+
                             </div>
 
                         </div>
@@ -236,7 +264,7 @@
             <h5>
                 <span>Ideal</span> para você</h5>
         </div>
-        <div class="row">
+        <div class="row carousel-products">
             <div class="col-md-15 products-ideal">
                 <img src="Figuras/product1.png">
                 <div>
@@ -290,78 +318,81 @@
         </div>
     </div>
 
-<!-- Banner Wishes -->
+    <!-- Banner Wishes -->
     <div class="container section-wishes">
-        <row>
-            <div class="col-md-9 row-wishes">
+        <div class="row row-wishes-desktop">
+            <div class="col-sm-9 row-wishes">
                 <img src="Figuras/wishes.png" id="wishes-banner">
             </div>
-            <div class="col-md-3 row-wishes-box">
+            <div class="col-sm-3 row-wishes-box">
                 <img src="Figuras/box-wishes.png">
-            </div>
-        </row>
-    </div>
-
-    <div class="container">
-            <div class="title-section-ideal">
-                <h5>
-                    <h5>Em <span>Destaque</span></h5>
-            </div>
-            <div class="row">
-                <div class="col-md-15 products-ideal">
-                    <img src="Figuras/product1.png">
-                    <div>
-                        <p class="title-product">Nome do produto por interesse ou última pesquisa ou aleatória</p>
-                    </div>
-                    <div>
-                        <span class="ideal-price-product">R$ 120,00</span>
-                        <span class="ideal-price-parcel">6x R$ 20,00</span>
-                    </div>
-                </div>
-                <div class="col-md-15 products-ideal">
-                    <img src="Figuras/product1.png">
-                    <div>
-                        <p class="title-product">Nome do produto por interesse ou última pesquisa ou aleatória</p>
-                    </div>
-                    <div>
-                        <span class="ideal-price-product">R$ 120,00</span>
-                        <span class="ideal-price-parcel">6x R$ 20,00</span>
-                    </div>
-                </div>
-                <div class="col-md-15 products-ideal">
-                    <img src="Figuras/product1.png">
-                    <div>
-                        <p class="title-product">Nome do produto por interesse ou última pesquisa ou aleatória</p>
-                    </div>
-                    <div>
-                        <span class="ideal-price-product">R$ 120,00</span>
-                        <span class="ideal-price-parcel">6x R$ 20,00</span>
-                    </div>
-                </div>
-                <div class="col-md-15 products-ideal">
-                    <img src="Figuras/product1.png">
-                    <div>
-                        <p class="title-product">Nome do produto por interesse ou última pesquisa ou aleatória</p>
-                    </div>
-                    <div>
-                        <span class="ideal-price-product">R$ 120,00</span>
-                        <span class="ideal-price-parcel">6x R$ 20,00</span>
-                    </div>
-                </div>
-                <div class="col-md-15 products-ideal" style="border: none;">
-                    <img src="Figuras/product1.png">
-                    <div>
-                        <p class="title-product">Nome do produto por interesse ou última pesquisa ou aleatória</p>
-                    </div>
-                    <div>
-                        <span class="ideal-price-product">R$ 120,00</span>
-                        <span class="ideal-price-parcel">6x R$ 20,00</span>
-                    </div>
-                </div>
             </div>
         </div>
 
-<!-- Banner 3 -->
+    </div>
+
+    <div class="container">
+        <div class="title-section-ideal">
+            <h5>
+                <h5>Em
+                    <span>Destaque</span>
+                </h5>
+        </div>
+        <div class="row carousel-products">
+            <div class="col-md-15 products-ideal">
+                <img src="Figuras/product1.png">
+                <div>
+                    <p class="title-product">Nome do produto por interesse ou última pesquisa ou aleatória</p>
+                </div>
+                <div>
+                    <span class="ideal-price-product">R$ 120,00</span>
+                    <span class="ideal-price-parcel">6x R$ 20,00</span>
+                </div>
+            </div>
+            <div class="col-md-15 products-ideal">
+                <img src="Figuras/product1.png">
+                <div>
+                    <p class="title-product">Nome do produto por interesse ou última pesquisa ou aleatória</p>
+                </div>
+                <div>
+                    <span class="ideal-price-product">R$ 120,00</span>
+                    <span class="ideal-price-parcel">6x R$ 20,00</span>
+                </div>
+            </div>
+            <div class="col-md-15 products-ideal">
+                <img src="Figuras/product1.png">
+                <div>
+                    <p class="title-product">Nome do produto por interesse ou última pesquisa ou aleatória</p>
+                </div>
+                <div>
+                    <span class="ideal-price-product">R$ 120,00</span>
+                    <span class="ideal-price-parcel">6x R$ 20,00</span>
+                </div>
+            </div>
+            <div class="col-md-15 products-ideal">
+                <img src="Figuras/product1.png">
+                <div>
+                    <p class="title-product">Nome do produto por interesse ou última pesquisa ou aleatória</p>
+                </div>
+                <div>
+                    <span class="ideal-price-product">R$ 120,00</span>
+                    <span class="ideal-price-parcel">6x R$ 20,00</span>
+                </div>
+            </div>
+            <div class="col-md-15 products-ideal" style="border: none;">
+                <img src="Figuras/product1.png">
+                <div>
+                    <p class="title-product">Nome do produto por interesse ou última pesquisa ou aleatória</p>
+                </div>
+                <div>
+                    <span class="ideal-price-product">R$ 120,00</span>
+                    <span class="ideal-price-parcel">6x R$ 20,00</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Banner 3 -->
     <div class="container section-banner3">
         <div class="row">
             <div class="col-md-12">
@@ -371,14 +402,16 @@
 
     </div>
 
-<!-- Em Oferta -->
+    <!-- Em Oferta -->
 
-<div class="container section-offers">
+    <div class="container section-offers">
         <div class="title-section-ideal">
             <h5>
-                <h5>Em <span>Oferta</span></h5>
+                <h5>Em
+                    <span>Oferta</span>
+                </h5>
         </div>
-        <div class="row">
+        <div class="row carousel-products">
             <div class="col-md-15 products-ideal">
                 <img src="Figuras/product1.png">
                 <div>
@@ -442,36 +475,54 @@
         </div>
     </div>
 
-    
 
-<!-- Footer -->
+
+    <!-- Footer -->
     <div class="container-fluid container-fluid-footer">
         <div class="container container-footer">
             <div class="row row-footer">
-                <div class="col-md-3">
+                <div class="col-md-6 col-sm-6 col-xs-12">
                     <p id="footer-title">
                         <img src="Figuras/icon-face.png">
-                        <img src="Figuras/icon-insta.png">
-                        /idealecasaoficial
+                        <img src="Figuras/icon-insta.png"> /idealecasaoficial
                     </p>
                     <p class="footer-subtitle">www.idealecasaoficial.com.br</p>
                     <p class="footer-subtitle">Maxi Shopping Jundiaí</p>
                 </div>
-                <div class="col-md-4 col-md-offset-5">
+                <div class="col-md-6 col-sm-6 col-xs-12 row-footer-tel-innner">
                     <h3 class="footer-tel">
-                        <img src="Figuras/icon-phone.png">
-                        (11) 4522-2540
+                        <img src="Figuras/icon-phone.png"> (11) 4522-2540
                     </h3>
                 </div>
             </div>
             <!-- menu footer -->
             <div class="row row-menu-footer">
                 <ul>
-                    <li><a href="#">sobre a ideale casa <span class="bar">|</span></a></li>
-                    <li><a href="#">loja <span class="bar">|</span></a></li>
-                    <li><a href="#">dúvidas <span class="bar">|</span></a></li>
-                    <li><a href="#">termos de uso <span class="bar">|</span></a></li>
-                    <li><a href="#">fale conosco <span class="bar">|</span></a></li>
+                    <li>
+                        <a href="#">sobre a ideale casa
+                            <span class="bar">|</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">loja
+                            <span class="bar">|</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">dúvidas
+                            <span class="bar">|</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">termos de uso
+                            <span class="bar">|</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">fale conosco
+
+                        </a>
+                    </li>
                 </ul>
             </div>
 
@@ -481,10 +532,14 @@
                     <img src="Figuras/ideale-logo-2.png">
                 </div>
                 <div class="col-md-6 col-footer-sobre">
-                        <p><span style="text-decoration: underline">Dúvidas? </span>sac@idealecasaoficial.com.br <span class="bar">|</span>Ideale Casa Ltda - ME CNPJ: 29314.909/0001-04</p>
-                        <p>Av Antonio Frederico Ozanan, 6000, 1, Piso Loja 1076/1077. Vila Rio Branco, Jundiai / SP, CEP 13215276, Brasil</p>
+                    <p>
+                        <span style="text-decoration: underline">Dúvidas? </span>sac@idealecasaoficial.com.br
+                        <span class="bar">|</span>Ideale Casa Ltda - ME CNPJ: 29314.909/0001-04</p>
+                    <p>Av Antonio Frederico Ozanan, 6000, 1, Piso Loja 1076/1077. Vila Rio Branco, Jundiai / SP, CEP 13215276,
+                        Brasil
+                    </p>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 footer-pay">
                     <img src="Figuras/icons-pay.png">
                 </div>
             </div>
@@ -492,10 +547,10 @@
         </div>
     </div>
 
-<!-- Footer Last Bar -->
+    <!-- Footer Last Bar -->
 
     <div class="container-fluid container-fluid-footer-last">
-        <div style="width: 100%; height: 73px; background: #880709;"></div>
+        <div class="footer-last-bar" style="width: 100%; height: 73px; background: #880709;"></div>
     </div>
 
 
