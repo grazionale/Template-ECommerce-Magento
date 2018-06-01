@@ -237,11 +237,12 @@ body label{
     margin: 0 auto;
 }
 .carousel-category{
-    padding: 35px 10px 35px 10px;
+    padding: 35px 8px 35px 8px;
 }
 .carousel-category img{
     width: 100%;
     padding: 0px 7px 0 7px;
+    overflow: hidden;
 }
 
 .slick-prev:before, .slick-next:before{
@@ -262,7 +263,6 @@ body label{
 
 /* Seção Ideal para você */
 .products-ideal{
-    border-right: 2px solid #c5c5c5;
     padding: 40px 60px 40px 60px;
 }
 
@@ -293,24 +293,13 @@ body label{
 .section-wishes{
     padding: 35px 0 35px 0;
 }
-.row-wishes{
-    padding: 0 !important;
-}
 
-.row-wishes-box{
-    padding-left: 5px !important;
-    margin: 0;
-}
 .section-wishes img{
     width: 100%;
     height: 276px;
 }
 
-#wishes-banner{
-    margin-right: 10px;
-    margin: 0;
-    padding: 0;
-}
+
 
 
 /* Seção Banner 3 */
@@ -418,6 +407,10 @@ body label{
     
 }
 
+#footer-pay-img{
+    width: 100%;
+}
+
 .container-fluid-footer-last{
     padding: 0 !important;
 }
@@ -447,8 +440,8 @@ body label{
 .col-lg-15 {
     position: relative;
     min-height: 1px;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 /*Medias queries */
@@ -628,7 +621,6 @@ body label{
 
      .row-menu-footer {
          padding-top: 10px;
-         padding-block-end: 10px;
      }
      .row-menu-footer ul li a{
         font-size: 14px;
@@ -642,7 +634,7 @@ body label{
         padding-bottom: 10px;
      }
 
-     .footer-pay img{
+     #footer-pay-img{
          width: 50%;
      }
 
@@ -667,3 +659,12 @@ body label{
         padding: 0 15px 0 15px;
     }
 }
+
+
+
+
+
+
+
+
+

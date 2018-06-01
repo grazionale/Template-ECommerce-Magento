@@ -1,8 +1,4 @@
 $(document).ready(function(){
-      $('.slide-show').slick({
-        arrows: false
-      });
-
       $('.carousel-category').slick({
         dots: false,
         infinite: true,
